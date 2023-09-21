@@ -1,0 +1,84 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: 'Comfortaa', cursiva;
+    margin: 0;
+    padding: 0;
+    background-color: #b5160808;
+  }
+  
+  
+  header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,#EB3D34, #E63622);
+    color: white;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+section img{
+    height:350px ;
+}
+
+section p{
+    text-align: justify;
+    padding: 15px;
+}
+
+.card{
+    background-color: #ea87759c;
+}
+
+
+
+
+
+footer{
+    color: white;
+    margin-top: 90px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E63D2E;
+}
+
+footer div{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+footer img{
+    margin:  10px;
+}
